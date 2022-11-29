@@ -21,7 +21,8 @@ public class MyServlet extends HttpServlet {
         printWriter.print("<head>");
         printWriter.print("<title> This is a title </title>");
         printWriter.print("</head>");
-
+        printWriter.print("</html");
+        printWriter.close();
     }
 
     @Override
